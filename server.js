@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV !== 'production') {
-  // require('dotenv').load()
-  require('dotenv').config({path:'.env'})
+  // require('dotenv').load()    
+  require('dotenv').config({path:'.env'}) //ddd
 }
 
 const express = require('express')
