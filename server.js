@@ -1,6 +1,6 @@
 if (process.env.NODE_ENV !== 'production') {
   // require('dotenv').load()    
-  require('dotenv').config({path:'.env'}) //tas rik ir
+  require('dotenv').config({path:'.env'})
 }
 
 const express = require('express')
